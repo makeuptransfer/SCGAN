@@ -8,7 +8,9 @@ Put the "G.pth" and "vgg.pth" in "./checkpoints" and "./" respectively.
 Environments:python=3.8, pytorch=1.6.0, Ubuntu=20.04.1 LTS
 ## Train
 Put the train-list of makeup images in "./MT-Dataset/makeup.txt" and the train-list of non-makeup images in "./MT-Dataset/non-makeup.txt"
+
 Use the "./scripts/handle_parsing.py" to convert the origin MT-Dataset's seg labels
+
 Use `python sc.py --phase train` to train
 ## Test
 ### 1.Global Makeup Transfer
