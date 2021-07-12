@@ -3,7 +3,9 @@ Implementation of CVPR 2021 paper "Spatially-invariant Style-codes Controlled Ma
 ## Prepare
 The pre-trained model is avaiable at https://drive.google.com/file/d/1t1Hbgqqzc_rV5v3gF7HuJ-xiuEVNb8sh/view?usp=sharing.
 
-Put the "G.pth" and "vgg.pth" in "./checkpoints" and "./" respectively.
+vgg_conv.pth:https://drive.google.com/file/d/1JNrSVZrK4TfC7pFG-r7AOmGvBXF2VFOt/view?usp=sharing
+
+Put the G.pth and VGG weights in "./checkpoints" and "./" respectively.
 
 Environments:python=3.8, pytorch=1.6.0, Ubuntu=20.04.1 LTS
 ## Train
